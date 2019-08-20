@@ -5,6 +5,6 @@ color: #777;
 width: 960px;
 font-size: 18px;
 }
-header {
+header, nav, section, aside {
     background: #ebebeb;
 }
