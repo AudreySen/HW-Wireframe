@@ -7,41 +7,65 @@ body {
     margin: auto;
 }
 
-header, nav, section, aside, footer {
+/* .content {
+    max-width: 1000px;
+  } */
+
+header {
     text-align: center;
     background: #ebebeb;
-    position: relative;
-    top: 10px;
-    left: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+nav {
+    text-align: center;
+    background: #ebebeb;
+    height: 100px;
+    margin-top: 10px;
+}
+
+section {
+    text-align: center;
+    background: #ebebeb;
+    height: 200px;
+    margin-top: 10px;
+    float: left;
+    width: 60%;
+}
+
+aside {
+    text-align: center;
+    background: #ebebeb;
+    right: 100px;
+    float: right;
+    width: 275px;
+}
+
+footer {
+    text-align: center;
+    background: #ebebeb;
+    margin-top: 10px;
 }
 
 article {
     text-align: center;
     color: #ebebeb;
-    background: #777
+    background-color: #777;
+    margin: 10px 20px;
+    height: 100px;
 }
 
-h1, h2, h3, p {
+h1 {
     text-align: center;
     color: #777;
     background: #ebebeb;
+    margin: 20px 40px;
 }
 
-header, nav, section {
-    height: 100px;
-    margin-top: 10px;
-}
-
-aside {
-    position: relative;
-    right: 100px;
-    float: right;
-    width: 275px;
-}
-.clear: {
-    clear: left:
-}
-
-section, article, h1, h2, h3 p {
-    float: left;
+p {
+    text-align: center;
+    color: #777;
+    background: #ebebeb;
+    margin: 20px 40px;
 }
