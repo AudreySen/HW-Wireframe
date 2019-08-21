@@ -8,15 +8,21 @@ body {
 }
 
 header, nav, section, aside, footer {
+    text-align: center;
     background: #ebebeb;
+    position: relative;
+    top: 10px;
+    left: 100px;
 }
 
 article {
+    text-align: center;
     color: #ebebeb;
     background: #777
 }
 
-h1, p {
+h1, h2, h3, p {
+    text-align: center;
     color: #777;
     background: #ebebeb;
 }
@@ -24,4 +30,18 @@ h1, p {
 header, nav, section {
     height: 100px;
     margin-top: 10px;
+}
+
+aside {
+    position: relative;
+    right: 100px;
+    float: right;
+    width: 275px;
+}
+.clear: {
+    clear: left:
+}
+
+section, article, h1, h2, h3 p {
+    float: left;
 }
